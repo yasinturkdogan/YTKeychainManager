@@ -10,7 +10,7 @@ import Foundation
 
 public class YTSimpleCache {
     
-    static let shared = YTSimpleCache()
+    public static let shared = YTSimpleCache()
     
     private init() {}
     

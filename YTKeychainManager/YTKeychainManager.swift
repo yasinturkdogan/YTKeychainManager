@@ -27,7 +27,7 @@ let kSecMatchLimitOneValue = NSString(format: kSecMatchLimitOne);
 
 public class YTKeychainManager {
     
-    static let shared = YTKeychainManager()
+    public static let shared = YTKeychainManager()
     
     private init() {}
     
