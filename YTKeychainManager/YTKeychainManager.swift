@@ -114,8 +114,7 @@ public class YTKeychainManager {
         // Delete any existing items
         let status = SecItemDelete(keychainQuery as CFDictionary);
         
-        if(status == -34018)
-        {
+        if(status == -34018) {
             NSLog("Keychain error: -34018");
         }
         
@@ -150,8 +149,7 @@ public class YTKeychainManager {
                 }
             }
         }
-        if(status == -34018)
-        {
+        if(status == -34018) {
             NSLog("Keychain error: -34018");
         }
         
