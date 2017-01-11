@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  YTKeychainManagerExample
 //
-//  Created by Rick Dangerous on 1/11/17.
+//  Created by Yasin Turkdogan on 1/11/17.
 //  Copyright © 2017 yasinturkdogan. All rights reserved.
 //
 

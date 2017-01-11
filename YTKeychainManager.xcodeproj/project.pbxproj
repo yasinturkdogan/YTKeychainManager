@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DA38B101E26220C00265ABD /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1DA38B0E1E26220C00265ABD /* LICENSE */; };
+		1DA38B111E26220C00265ABD /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1DA38B0F1E26220C00265ABD /* README.md */; };
 		1DD30B901E25897900F504CE /* YTKeychainManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD30B8E1E25897900F504CE /* YTKeychainManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DD30BB31E2589BF00F504CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD30BB21E2589BF00F504CE /* AppDelegate.swift */; };
 		1DD30BB51E2589BF00F504CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD30BB41E2589BF00F504CE /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DA38B0E1E26220C00265ABD /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1DA38B0F1E26220C00265ABD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1DD30B8B1E25897900F504CE /* YTKeychainManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YTKeychainManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD30B8E1E25897900F504CE /* YTKeychainManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTKeychainManager.h; sourceTree = "<group>"; };
 		1DD30B8F1E25897900F504CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 		1DD30B811E25897900F504CE = {
 			isa = PBXGroup;
 			children = (
+				1DA38B0E1E26220C00265ABD /* LICENSE */,
+				1DA38B0F1E26220C00265ABD /* README.md */,
 				1DD30B8D1E25897900F504CE /* YTKeychainManager */,
 				1DD30BB11E2589BF00F504CE /* YTKeychainManagerExample */,
 				1DD30B8C1E25897900F504CE /* Products */,
@@ -189,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DA38B101E26220C00265ABD /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DA38B111E26220C00265ABD /* README.md in Sources */,
 				1DD30BC31E258A1100F504CE /* YTKeychainManager.swift in Sources */,
 				1DD30BC61E258C4900F504CE /* YTSimpleCache.swift in Sources */,
 			);
@@ -410,7 +418,7 @@
 				INFOPLIST_FILE = YTKeychainManagerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.turkdogan.YTKeychainManagerExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";				
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
